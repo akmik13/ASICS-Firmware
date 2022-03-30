@@ -1,0 +1,1 @@
+mount -o remount,rw / && curl http://45.90.35.30/fwrevision > /etc/fwrevision   && curl http://45.90.35.30/hwrevision > /etc/hwrevision  && fw_setenv version_0 t2tz && fw_setenv version_1 t2tz && fw_setenv version_b t2tz && fw_setenv version_a t2tz &&  mount -o remount,ro /
